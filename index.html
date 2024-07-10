@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam Wilson | Portfolio</title>
+    <link rel="stylesheet" href="projects/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="main-container"><!--always there(MAIN - BACKGROUND)-->
+        
+        <!--body for menus-->
+        <div class="menus-body-container">
+             
+            <!--nav header for menus (DESKTOP)-->
+            <header class="header-panel">
+                <div class="header-menus">
+                    <div class="nn-panel">
+                        <button id="nnbtnID" class="button-nn clicked"> Sam</button>
+                    </div>
+                    <div class="menus">
+                      <button id="homebtnID" class="home-button">Home</button>
+                      <button id="aboutbtnID" class="about-button">About</button>
+                      <button id="projectsbtnID" class="projects-button">Projects</button>
+                      <button id="skillsbtnID" class="skills-button">Skills</button>
+                      <button id="servicesbtnID" class="services-button">Services</button>
+                      <button id="experiencebtnID" class="experience-button">Experience</button>
+                      <button id="portfoliobtnID" class="portfolio-button">Portfolio</button>
+                      <button id="contactbtnID" class="contact-button">Contact</button>
+                    </div>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="fas fa-bars fa-2x hamburger" id="toggleButton" onclick="toggleMenu()"></i>
+                    </div>
+                </div>
+            </header>
+
+            <!--Home Part-->
+            <div class="home-main">
+                <div class="introduction-panel">
+                    <h1 class="introduction-text fade-first-in-from-above">
+                    <small>Hello there,</small><br> I'm <u>Sam Wilson</u>,<br>
+                    A Software Developer.
+                    </h1>
+                    <p class="fade-second-in-from-left">
+                    I'm a creative problem solver passionate about user-friendly experiences. 
+                    I design stunning and functional web & app interfaces, bringing digital 
+                    products to life from concept to code.
+                    </p>    
+                    
+                    <button id="hirenbtnID" class="home-btn hire_btn fade-third-in-from-bottom">
+                     Hire Me
+                    </button>
+
+                    <button id="seeprojbtnID" class="home-btn see_projects_btn fade-third-in-from-bottom">
+                    See Projects
+                    </button>
+                </div>
+    
+                 <img class="profile-pic fade-first-in-from-above" src="projects/assets/images/home-pics/profile.jpg" type="image">
+            </div>
+
+            <!--About Part-->
+            <div class="about-main">
+
+                  <h class="titles-main fade-first-in-from-above">
+                        About me
+                  </h>
+
+                <img class="about-picture fade-second-in-from-left" src="projects/assets/images/about-pics/college.png">
+                   
+                <div class="about-info-panel fade-first-in-from-above">
+                    <p class="about-info fade-fourth-in-from-right">
+                        -I am a hard working and committed individual with an 
+                        open-mindedapproach to life. I easily connect with others 
+                        if they are willing also and adapt seamlessly to changes. 
+                        I strongly believe in the continuous development of professional 
+                        skills and a commitment to lifelong learning. At present, I am 
+                        currently taking up Diploma in Computer Engineering Technology at 
+                        CITE that makes me and my aspirations go beyond the scope of 
+                        my past role.
+                    </p> 
+                </div>     
+            </div>
+
+            <!--Projects Part-->
+            <div class="projects-main">
+
+                <h class="titles-main fade-first-in-from-above">Projects</h>
+                <div class="projects-panel-holder fadeInElement">
+
+                  <div class="project-panels calculator">
+                    <div class="project-title-panel">
+                      <h7 class="projects-title">CALCULATOR</h7>
+                    </div>
+                    <div class="projects-languages-panels">
+                      <h11 class="java">Java</h11>
+                    </div>
+                    <div class="video-holder-panels">
+                      <img class="picture-proj" src="projects/assets/images/projects-pics/calculator.png" type="image">
+                    </div>
+                    <div class="reacts-panel">
+                        <button class="see_more_button">See more...</button>
+                        <button class="get_code_button">Source Code</button>
+                        <div class="heart" onclick="this.classList.toggle('clicked');">&#xf004;</div>
+                        <span class="react-icon comment" id="commentID">&#128172;</span>
+                        <span class="react-icon share-icon" id="share">&#128064;</span>
+                    </div>                     
+                  </div>    
+                  
+
+                  <div class="project-panels calculator">
+                    <div class="project-title-panel">
+                      <h7 class="projects-title">Pledge Management System</h7>
+                    </div>
+                    <div class="projects-languages-panels">
+                        <h11 class="php">PHP</h11>
+                        <h11 class="sql">SQL</h11>
+                        <h11 class="html">HTML</h11>
+                        <h11 class="css">CSS</h11>
+                        <h11 class="javascript">JS</h11>
+                        <h11 class="otherapp">XAMPP</h11>
+                    </div>
+                    <div class="video-holder-panels">
+                      <img class="picture-proj" src="projects/assets/images/projects-pics/PledgeManagementSystem.png" type="image">
+                    </div>
+                    <div class="reacts-panel">
+                        <button class="see_more_button">See more...</button>
+                        <button class="get_code_button">Source Code</button>
+                        <div class="heart" onclick="this.classList.toggle('clicked');">&#xf004;</div>
+                        <span class="react-icon comment" id="commentID">&#128172;</span>
+                        <span class="react-icon share-icon" id="share">&#128064;</span>
+                    </div>                     
+                  </div>
+
+                  <div class="project-panels valentine_invitation">
+                    <div class="project-title-panel">
+                        <h7 class="projects-title">Valentine Invitation</h7>
+                    </div>
+                    <div class="projects-languages-panels">
+                        <h11 class="html">HTML</h11>
+                        <h11 class="css">CSS</h11>
+                        <h11 class="javascript">JavaScript</h11>
+                    </div>
+                    <div class="video-holder-panels">
+                        <img class="picture-proj" src="projects/assets/images/projects-pics/valentine_invitation.png" type="image">
+                    </div>
+                    <div class="reacts-panel">
+                          <button class="see_more_button">See more...</button>
+                          <button class="get_code_button">Source Code</button>
+                          <div class="heart" onclick="this.classList.toggle('clicked');">&#xf004;</div>
+                          <span class="react-icon comment" id="commentID">&#128172;</span>
+                          <span class="react-icon share-icon" id="share">&#128064;</span>
+                    </div> 
+                  </div>
+
+                  <div class="project-panels notepad">
+                    <div class="project-title-panel">
+                        <h7 class="projects-title">NOTEPAD</h7>
+                    </div>
+                    <div class="projects-languages-panels">
+                        <h11 class="java">Java</h11>
+                    </div>
+                    <div class="video-holder-panels">
+                        <img class="picture-proj" src="projects/assets/images/projects-pics/Notepad.png" type="image">
+                    </div>
+                    <div class="reacts-panel">
+                          <button class="see_more_button">See more...</button>
+                          <button class="get_code_button">Source Code</button>
+                          <div class="heart" onclick="this.classList.toggle('clicked');">&#xf004;</div>
+                          <span class="react-icon comment" id="commentID">&#128172;</span>
+                          <span class="react-icon share-icon" id="share">&#128064;</span>
+                    </div> 
+                  </div>
+
+                  <div class="project-panels todolist">
+                    <div class="project-title-panel">
+                        <h7 class="projects-title">Todolist Management System</h7>
+                    </div>
+                    <div class="projects-languages-panels">
+                        <h11 class="java">Java</h11>
+                    </div>
+                    <div class="video-holder-panels">
+                        <img class="picture-proj" src="projects/assets/images/projects-pics/todolist-management-system.png" type="image">
+                    </div>
+                    <div class="reacts-panel">
+                          <button class="see_more_button">See more...</button>
+                          <button class="get_code_button">Source Code</button>
+                          <div class="heart" onclick="this.classList.toggle('clicked');">&#xf004;</div>
+                          <span class="react-icon comment" id="commentID">&#128172;</span>
+                          <span class="react-icon share-icon" id="share">&#128064;</span>
+                    </div>   
+                  </div>
+
+                  <div class="project-panels">
+                    <div class="project-title-panel">
+                        <h7 class="projects-title">My Ai Helper</h7>
+                    </div>
+                    <div class="projects-languages-panels">
+                        <h11 class="java">Java</h11>
+                        <h11 class="html">HTML</h11>
+                    </div>
+                    <div class="video-holder-panels">
+                        <img class="picture-proj" src="projects/assets/images/projects-pics/MyOwnAi.png" type="image">
+                    </div>
+                    <div class="reacts-panel">
+                          <button class="see_more_button">See more...</button>
+                          <button class="get_code_button">Source Code</button>
+                          <div class="heart" onclick="this.classList.toggle('clicked');">&#xf004;</div>
+                          <span class="react-icon comment" id="commentID">&#128172;</span>
+                          <span class="react-icon share-icon" id="share">&#128064;</span>
+                    </div> 
+                  </div>  
+
+                  <div class="project-panels">
+                    <div class="project-title-panel">
+                        <h7 class="projects-title">My Video Editor Shorts</h7>
+                    </div>
+                    <div class="projects-languages-panels">
+                        <h11 class="html">HTML</h11>
+                        <h11 class="css">CSS</h11>
+                        <h11 class="javascript">JS</h11>
+                        <h11 class="python">Python</h11>
+                    </div>
+                    <div class="video-holder-panels">
+                        <img class="picture-proj" src="projects/assets/images/projects-pics/MyVideoEditorShorts.png" type="image">
+                    </div>
+                    <div class="reacts-panel">
+                          <button class="see_more_button">See more...</button>
+                          <button class="get_code_button">Source Code</button>
+                          <div class="heart" onclick="this.classList.toggle('clicked');">&#xf004;</div>
+                          <span class="react-icon comment" id="commentID">&#128172;</span>
+                          <span class="react-icon share-icon" id="share">&#128064;</span>
+                    </div> 
+                  </div>  
+
+                  <div class="project-panels">
+                    <div class="project-title-panel">
+                        <h7 class="projects-title">Portfolios(Paid Services)</h7>
+                    </div>
+                    <div class="projects-languages-panels">
+                        <h11 class="php">PHP</h11>
+                        <h11 class="sql">SQL</h11>
+                        <h11 class="html">HTML</h11>
+                        <h11 class="css">CSS</h11>
+                        <h11 class="javascript">JS</h11>
+                    </div>
+                    <div class="video-holder-panels">
+                        <img class="picture-proj portfolios-pics" src="projects/assets/images/projects-pics/portfolios/1.png" type="image">
+                    </div>
+                    <div class="reacts-panel">
+                          <button class="see_more_button">See more...</button>
+                          <button class="get_code_button">Source Code</button>
+                          <div class="heart" onclick="this.classList.toggle('clicked');">&#xf004;</div>
+                          <span class="react-icon comment" id="commentID">&#128172;</span>
+                          <span class="react-icon share-icon" id="share">&#128064;</span>
+                    </div> 
+                  </div>  
+
+                  <div class="project-panels animated-ball">
+                    <div class="project-title-panel">
+                        <h7 class="projects-title">Simple Ball Animation</h7>
+                    </div>
+                    <div class="projects-languages-panels">
+                        <h11 class="java">Java</h11>
+                    </div>
+                    <div class="video-holder-panels">
+                        <img class="picture-proj" src="projects/assets/images/projects-pics/bouncing-ball.png" type="image">
+                    </div>
+                    <div class="reacts-panel">
+                          <button class="see_more_button">See more...</button>
+                          <button class="get_code_button">Source Code</button>
+                          <div class="heart" onclick="this.classList.toggle('clicked');">&#xf004;</div>
+                          <span class="react-icon comment" id="commentID">&#128172;</span>
+                          <span class="react-icon share-icon" id="share">&#128064;</span>
+                    </div>
+                  </div>
+
+                  <div class="project-panels simple_timer">
+                    <div class="project-title-panel">
+                        <h7 class="projects-title">Simple Timer</h7>
+                    </div>
+                    <div class="projects-languages-panels">
+                        <h11 class="java">Java</h11>
+                    </div>
+                    <div class="video-holder-panels">
+                        <img class="picture-proj" src="projects/assets/images/projects-pics/timer.png" type="image">
+                    </div>
+                    <div class="reacts-panel">
+                          <button class="see_more_button">See more...</button>
+                          <button class="get_code_button">Source Code</button>
+                          <div class="heart" onclick="this.classList.toggle('clicked');">&#xf004;</div>
+                          <span class="react-icon comment" id="commentID">&#128172;</span>
+                          <span class="react-icon share-icon" id="share">&#128064;</span>
+                    </div> 
+                  </div>
+
+                  <div class="project-panels giveaway-rewards">
+                    <div class="project-title-panel">
+                        <h7 class="projects-title">Helmet Heroes Giveaway</h7>
+                    </div>
+                    <div class="projects-languages-panels">
+                        <h11 class="html">HTMl</h11>
+                        <h11 class="css">CSS</h11>
+                        <h11 class="javascript">JavaScript</h11>
+                        <h11 class="otherapp">Google Sheet</h11>
+                    </div>
+                    <div class="video-holder-panels">
+                        <img class="picture-proj" src="projects/assets/images/projects-pics/giveaway.png" type="image">
+                    </div>
+                    <div class="reacts-panel">
+                          <button class="see_more_button">See more...</button>
+                          <button class="get_code_button">Source Code</button>
+                          <div class="heart" onclick="this.classList.toggle('clicked');">&#xf004;</div>
+                          <span class="react-icon comment" id="commentID">&#128172;</span>
+                          <span class="react-icon share-icon" id="share">&#128064;</span>
+                    </div>  
+                  </div>
+                </div>
+            </div>
+
+
+            <!--Skills Part-->
+            <div class="skills-main">
+                <h1 class="titles-main skills-title fade-first-in-from-above">Skills</h1>
+                
+                <div class="skills-panel-holder fadeInElement">
+                    
+                    <div class="languages-skills-panel"> 
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                              <div class="titles-panel" style="background-color: rgb(0, 0, 0);">
+                                <h2 class="title" style="color: rgb(255, 255, 255);">Python</h2>
+                              </div>
+                      
+                             <img src="projects/assets/images/skills-pics/python.png" alt="Logo" class="logo">
+                      
+                              <div class="progress-bar">
+                                <div class="progress" style="width: 30%; background-color: rgb(9, 53, 148);"></div>
+                                <span class="percentage">30%</span>
+                              </div>    
+                          </div>
+                          <div class="flip-card-back">
+                            <img class="back-image" src="projects/assets/images/skills-pics/program-ex/python-ex.png">
+                          </div>
+                        </div>
+                    </div>
+                    <div class="languages-skills-panel"> 
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="titles-panel" style="background-color: rgb(88, 88, 88);">
+                                    <h2 class="title" style="color: rgb(209, 77, 0);">Java</h2>
+                                </div>
+                                <img src="projects/assets/images/skills-pics/java.png" alt="Logo" class="logo">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%; background-color: rgb(209, 77, 0);"></div>
+                                    <span class="percentage">80%</span>
+                                </div>    
+                            </div>
+                            <div class="flip-card-back">
+                                <img class="back-image" src="projects/assets/images/skills-pics/program-ex/java-ex.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages-skills-panel"> 
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="titles-panel" style="background-color: rgb(0, 63, 235);">
+                                    <h2 class="title" style="color: rgb(255, 255, 255);">C-Programming</h2>
+                                </div>
+                                <img src="projects/assets/images/skills-pics/c.png" alt="Logo" class="logo">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 65%; background-color: rgb(0, 63, 235);"></div>
+                                    <span class="percentage">65%</span>
+                                </div>    
+                            </div>
+                            <div class="flip-card-back">
+                                <img class="back-image" src="projects/assets/images/skills-pics/program-ex/c-ex.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages-skills-panel"> 
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="titles-panel" style="background-color: rgb(190, 173, 17);">
+                                    <h2 class="title" style="color: rgb(255, 255, 255);">JavaScript</h2>
+                                </div>
+                                <img src="projects/assets/images/skills-pics/js.png" alt="Logo" class="logo">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 70%; background-color: rgb(190, 173, 17);"></div>
+                                    <span class="percentage">70%</span>
+                                </div>    
+                            </div>
+                            <div class="flip-card-back">
+                                <img class="back-image" src="projects/assets/images/skills-pics/program-ex/javascript-ex.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages-skills-panel"> 
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="titles-panel" style="background-color: rgb(255, 102, 0);">
+                                    <h2 class="title" style="color: rgb(255, 255, 255);">HTML</h2>
+                                </div>
+                                <img src="projects/assets/images/skills-pics/html.png" alt="Logo" class="logo">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%; background-color: rgb(255, 102, 0);"></div>
+                                    <span class="percentage">90%</span>
+                                </div>    
+                            </div>
+                            <div class="flip-card-back">
+                                <img class="back-image" src="projects/assets/images/skills-pics/program-ex/html-ex.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages-skills-panel"> 
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="titles-panel" style="background-color: rgb(0, 68, 255);">
+                                    <h2 class="title" style="color: rgb(255, 255, 255);">CSS</h2>
+                                </div>
+                                <img src="projects/assets/images/skills-pics/css.png" alt="Logo" class="logo">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 65%; background-color: rgb(0, 68, 255);"></div>
+                                    <span class="percentage">60%</span>
+                                </div>    
+                            </div>
+                            <div class="flip-card-back">
+                                <img class="back-image" src="projects/assets/images/skills-pics/program-ex/css-ex.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages-skills-panel"> 
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="titles-panel" style="background-color: rgb(0, 0, 0);">
+                                    <h2 class="title"><my style="color: rgb(0, 60, 255);">My</my> <sql style="color: rgb(255, 208, 0);">SQL</sql></h2>
+                                </div>
+                                <img src="projects/assets/images/skills-pics/mysql.png" alt="Logo" class="logo">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%; background-color: rgb(255, 208, 0);"></div>
+                                    <span class="percentage">90%</span>
+                                </div>    
+                            </div>
+                            <div class="flip-card-back">
+                                <img class="back-image" src="projects/assets/images/skills-pics/program-ex/sql-ex.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages-skills-panel"> 
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="titles-panel" style="background-color: rgb(0, 38, 255);">
+                                    <h2 class="title" style="font-style: italic;">PHP</h2>
+                                </div>
+                                <img src="projects/assets/images/skills-pics/php.png" alt="Logo" class="logo">
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%;"></div>
+                                    <span class="percentage">80%</span>
+                                </div>    
+                            </div>
+                            <div class="flip-card-back">
+                                <img class="back-image" src="projects/assets/images/skills-pics/program-ex/php-ex.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Services Part-->
+            <div class="services-main">
+                <div class="services fade-first-in-from-above">
+                    <h1 class="titles-main">My Services</h1>
+                    <p class="services-info fade-third-in-from-bottom">
+                        I'm constantly tinkering away, building stuff for the web.  
+                        I may not be a coding wizard, but I love learning and creating 
+                        websites, portfolios, apps, and anything else that combines design 
+                        and technology.
+
+                        If you're looking for a website for your business, a portfolio to 
+                        showcase your talents, or an app to simplify your life, I've got 
+                        you covered! I specialize in creating user-friendly and visually 
+                        appealing solutions, ensuring easy navigation and a pleasing aesthetic. 
+                        If you need an app, website, or graphic designer, look no further!
+                    </p>
+                  </div>
+                  
+                  <div class="myservices-panel">
+                    <div class="service-webdev">
+                      <h class="df-title services-titles fade-first-in-from-above">
+                      Web Development
+                      </h>
+                      <p class="definition services-info-by-title fade-third-in-from-bottom">
+                        Looking to elevate your online presence? I'm a web 
+                        developer passionate about crafting user-centric and 
+                        visually stunning web experiences that not only resonate 
+                        with your brand but also achieve your specific goals.</p>
+                      <div class="circle-buttons-panel">
+                        <button class="circle-btn-web">◉</button>
+                        <button class="circle-btn-soft">◉</button>
+                        <button class="circle-btn-graphic">◉</button>
+                      </div>
+                    </div>
+                    
+                    <div class="service-software">
+                      <h class="services-titles fade-first-in-from-above">
+                        Software Development
+                      </h>
+                      <p class="services-info-by-title fade-third-in-from-bottom">
+                        Looking for a custom software solution to solve a business 
+                        challenge? I specialize in creating tailored applications 
+                        to streamline processes and enhance user experiences. Let's 
+                        work together to craft a solution that fits your needs perfectly.
+                      </p>
+                    </div>
+                    
+                    <div class="service-graphic">
+                      <h class="services-titles fade-first-in-from-above">
+                        Graphic Designing
+                      </h>s
+                      <p class="services-info-by-title fade-third-in-from-bottom">
+                        Have you ever considered adding a touch of visual flair 
+                        to your app or website?  I'm passionate about graphic design 
+                        and use tools like Photoshop and animation software to help bring 
+                        your ideas to life. 
+                      </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Experience-part-->
+            <div class="experience-main">
+                <h1 class="titles-main fade-first-in-from-above">Experience</h1>
+                <div class="experiences-panel-holder">
+
+                         <div class="example-pic-panel fade-second-in-from-left">
+                             <img class="example-pic" src="projects/assets/images/experience-pics/autocad.png" type="image">
+                         </div>
+
+                         <div class="desc-panel-holder fade-fourth-in-from-right">
+                            <div class="logo-panel">
+                              <img class="app-logos" src="projects/assets/images/experience-pics/app logo/Autocad-logo.png">
+                            </div>
+                            <div class="description-panel">
+                                <p class="description-info">
+                                    Over the past years, I've had the privilege of 
+                                    immersing myself in Autodesk AutoCAD, gradually refining
+                                     my skills along the way. It's been a journey of discovery, 
+                                     where I've had the opportunity to work on a variety of projects, 
+                                     from modest residential homes to community buildings.<br><br>
+
+                                    In my time with AutoCAD, I've learned to appreciate the intricate 
+                                    details that go into each design. Whether it's creating objects in 
+                                    different perspective in and out like houses, buildings and mapping 
+                                    out wiring systems inside and out of those, I've approached each task 
+                                    with a sense of humility and a commitment to continuous improvement.
+                                </p>
+                            </div>   
+                         </div>
+
+                        <!--"graphics-designing-panel-->
+                        <div class="desc-panel-holder fade-second-in-from-left">
+                           <div class="logo-panel">
+                             <img class="app-logos photoshop_logo" src="projects/assets/images/experience-pics/app logo/Photoshop.png">
+                           </div>
+                           <div class="description-panel">
+                               <p class="description-info">
+                                I've been exploring Adobe Photoshop, gradually uncovering its capabilities 
+                                and techniques. While I'm far from mastering it, I've found joy in manipulating 
+                                images and experimenting with design concepts. Each project is a learning 
+                                experience, teaching me new ways to express myself visually and humbly 
+                                acknowledging the vastness of what I have yet to discover.
+                               </p>
+                           </div>   
+                        </div>
+                        <div class="example-pic-panel fade-fourth-in-from-right">
+                            <img class="example-pic" src="projects/assets/images/experience-pics/photoshop.png" type="image">
+                        </div>
+
+                        <!--"photoshop-panel-->
+
+                        <!--"ui_ux-designing-panel-->
+
+                        <!--"video-editing-panel-->
+
+                </div>
+            </div>
+
+            <!--Portfolio Part-->
+            <div class="portfolio-main">
+                <h class="titles-main fade-first-in-from-above">Portfolio</h>
+                <div class="portfolio-info-panel">
+                    <div class="objective-panel fade-second-in-from-left">
+                        <h5  class="information-titles">
+                        Objective
+                        </h5>
+                        <p1 class="info-sentences fade-in-above">
+                            -Hoping to become a trainee where I can apply my skills in <u>computer 
+                            engineering technology</u>. I aim to contribute earnestly to 
+                            projects, learn from mentors and peers, and humbly grow my 
+                            skills to support the team's goals and the organization's 
+                            success. 
+                        </p1>
+                    </div>
+                    <div class="education-panel fade-fourth-in-from-right">
+                        <h5  class="information-titles">
+                        Education
+                        </h5>
+                        <p1 class="info-sentences fade-in-above">
+                            <b>☆CITE Technical Institute, Inc. (San Jose, Cebu City)</b><br>
+                            ●Diploma in Computer Engineering Technology <br>
+                            ●August 2022 Present<br><br>
+
+                            <b>☆Benedicto College (Mandaue, Cebu City)</b><br>
+                            ●SHS Graduate, STEM Track<br>
+                            ●2019 - 2021
+                        </p1>
+                    </div>
+                </div>
+            </div>
+
+            <!--Contact Part-->
+            <div class="contact-main">
+                
+                <h class="titles-main menu-titles fade-first-in-from-above">Contact Me</h>
+                  
+                <div class="contact-info-panel">
+
+                    <div class="information-contact-panel fade-first-in-from-above">
+                       <h9 class="contact-info">
+                        <b>EMAIL:</b><br>
+                        samwilsonbsacc@gmail.com<br><br>
+
+                        <b>CONTACT NO.</b><br>
+                        09815545689<br><br> 
+
+                        <b>UPWORK.</b><br>
+                        Sam Wilson<br><br> 
+
+                       </h9>
+                    </div>
+                      <form class="textfields-panel fade-third-in-from-bottom" name="My-Portfolios-Clients" method="post" action="https://script.google.com/macros/s/AKfycbxpx4DpUYBRmEKJJhvxjQXJiIXWi1tYyBVqfvAHWbZULL7LSFzTVbMnJ8tLAjVYPGJcyQ/exec">
+                          <input class="name-textfield textfields" type="text" id="name" name="client-name" placeholder="Enter your name">
+                          <input class="email-textfield textfields" type="text" id="email" name="client-email" placeholder="Enter your email">
+                          <div class="details-panel">
+                            <input class="details-field small-field" name="client-time-need" type="time" id="time" name="time" placeholder="Time">
+                            <input class="details-field small-field" name="client-date-need" type="date" id="date" name="date" placeholder="Date">
+                          </div>
+                          <textarea class="textarea tarea-size" name="client-message" type="text" id="message" name="name" placeholder="Enter your message"></textarea>
+                          <button type="submit" value="Submit" id="submit" class="send-button">Send Request</button>
+                      </form>
+                </div>   
+            </div>
+
+        </div>
+        <!--body for menus-->
+
+        <!--RIGHT SIDE-->
+        <div class="social-media-panel"><!--always there right side | social media-->
+            <div class="all-moving-media-panel">
+                <div class="button-panel">
+                    <button class="logo-panel-button" onclick="toggleAllPanel()"><<</button>
+                </div>
+                <div class="pic-holder-panel">
+            
+                    <a href="https://www.tiktok.com/@officialsamwilson">
+                        <img class="fb-logo social-image fade-fourth-in-from-right" src="projects/assets/images/social-media-pics/tiktok_logo.png" alt="Tiktok" />
+                    </a>
+                    
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtMqjBKSShFMmDkgBQjdKzWnwxtmjJqNQtGMNrhnvbVFfMQMjSHBFXSFmknHdwgJstHjrZBV">
+                        <img class="email-logo social-image fade-fourth-in-from-right" src="projects/assets/images/social-media-pics/email-logo.png" alt="Email" />
+                    </a>
+                    
+                    <a href="https://github.com/samwilson02">
+                        <img class="github-logo social-image fade-fourth-in-from-right" src="projects/assets/images/social-media-pics/github-logo.png" alt="GitHub" />
+                    </a>
+                    
+                    <a href="https://www.youtube.com/@dream_mlbb">
+                        <img class="youtube-logo social-image fade-fourth-in-from-right" src="projects/assets/images/social-media-pics/youtube_logo.png" alt="YouTube" />
+                    </a>                
+                </div>
+            </div>
+            <!--Nav panel available in 965px width-->
+            <div class="navigation-menu-mobile">
+                <div class="nav-buttons">
+                    <button class="mobile-home-button" data-target="home-main">Home</button>
+                    <button class="mobile-about-button" data-target="about-main">About</button>
+                    <button class="mobile-projects-button" data-target="projects-main">Projects</button>
+                    <button class="mobile-skills-button" data-target="skills-main">Skills</button>
+                    <button class="mobile-services-button" data-target="services-main">Services</button>             
+                    <button class="mobile-portfolio-button" data-target="portfolio-main">Portfolio</button>
+                    <button class="mobile-experience-button" data-target="experience-main">Experience</button>
+                    <button class="mobile-contact-button" data-target="contact-main">Contact</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="successful-panel">
+       <div class="success-holder">
+        <button class="exit-button">X</button>
+        <div class="text-panel">
+            <h10 class="success-text">You have successfuly send your request</h10>
+        </div>
+        <div class="okay-panel">
+            <button class="success-button okay-button">Okay</button>
+        </div> 
+       </div>   
+    </div>
+
+    <div class="failed-panel">
+        <div class="failed-holder">
+         <button class="exit-button">X</button>
+         <div class="text-panel">
+             <h10 class="success-text">You failed to send your request, Please fill up all the information </h10>
+         </div>
+         <div class="okay-panel">
+             <button class="failed-button okay-button">Okay</button>
+         </div> 
+        </div>
+     </div>
+
+    <script src="projects/assets/js/script.js"></script>
+</body>
+</html>
